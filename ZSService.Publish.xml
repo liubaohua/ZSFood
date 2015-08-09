@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\inetpub\wwwroot\webctrl_client" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="配置文件1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/UFSoft.U8.Framework.DataSourceConfig.BO.dll" publishTime="08/22/2009 09:07:14" />
+    <file relUrl="bin/UFIDA.U8.Portal.Scenario.Common.dll" publishTime="09/03/2009 10:28:38" />
+    <file relUrl="bin/UFIDA.U8.U8APIFramework.dll" publishTime="10/14/2009 11:39:30" />
+    <file relUrl="bin/Win7TaskBar.dll" publishTime="09/30/2009 15:39:44" />
+    <file relUrl="bin/TokenManage.dll" publishTime="11/07/2006 05:24:58" />
+    <file relUrl="bin/Interop.UFPortalProxy.dll" publishTime="08/27/2008 11:40:44" />
+    <file relUrl="ZSService.asmx" publishTime="08/04/2015 19:15:49" />
+    <file relUrl="bin/I_UFSoft.U8.Framework.KeyManage.dll" publishTime="06/17/2008 22:12:06" />
+    <file relUrl="bin/UFSoft.AIF.MOM.Common.MessageObjectModel.xml" publishTime="04/23/2009 16:50:44" />
+    <file relUrl="bin/MOMProtocol.dll" publishTime="08/17/2009 14:10:44" />
+    <file relUrl="bin/UFSoft.U8.Framework.Login.BO.dll" publishTime="09/28/2009 20:40:02" />
+    <file relUrl="bin/zh-TW/UFIDA.U8.Portal.Framework.resources.dll" publishTime="08/29/2009 16:38:58" />
+    <file relUrl="bin/MOMEngineDAC.dll" publishTime="08/17/2009 14:10:42" />
+    <file relUrl="bin/UFIDA.U8.Portal.Scenario.Runtime.dll" publishTime="10/09/2009 16:46:02" />
+    <file relUrl="bin/Interop.MSXML2.dll" publishTime="06/14/2007 16:15:42" />
+    <file relUrl="bin/UFIDA.U8.Portal.Common.dll" publishTime="10/14/2009 19:18:56" />
+    <file relUrl="bin/DotNetTransactionScopeService.dll" publishTime="08/17/2009 14:10:26" />
+    <file relUrl="bin/UFIDA.U8.MomServiceCommon.dll" publishTime="09/04/2009 16:26:36" />
+    <file relUrl="bin/en-US/UFIDA.U8.Portal.Framework.resources.dll" publishTime="08/29/2009 16:38:58" />
+    <file relUrl="bin/UFIDA.U8.Portal.Toolbar.dll" publishTime="08/29/2009 16:39:14" />
+    <file relUrl="bin/UFIDA.U8.UAP.VoucherMetaUpgrade.dll" publishTime="08/17/2009 14:10:54" />
+    <file relUrl="bin/securityAndCreditIdentity.dll" publishTime="09/28/2009 20:39:56" />
+    <file relUrl="bin/UFSoft.U8.Framework.LoginControlLib.dll" publishTime="11/07/2006 05:24:58" />
+    <file relUrl="bin/UFSoft.U8.Framework.KeyManage.dll" publishTime="06/17/2008 22:12:08" />
+    <file relUrl="bin/XPExplorerBar.dll" publishTime="08/29/2009 16:39:04" />
+    <file relUrl="bin/UFIDA.U8.Portal.Viewers.FLowLayout.dll" publishTime="08/29/2009 16:39:10" />
+    <file relUrl="bin/UFIDA.U8.Portal.Option.dll" publishTime="08/29/2009 16:39:06" />
+    <file relUrl="bin/Interop.UFPortalProxyInterface.dll" publishTime="10/19/2006 10:20:56" />
+    <file relUrl="bin/IAppReceive.dll" publishTime="08/17/2009 14:10:28" />
+    <file relUrl="bin/Interop.U8APITransactionProxy.dll" publishTime="08/17/2009 14:10:36" />
+    <file relUrl="bin/UFIDA.U8.Portal.Framework.dll" publishTime="10/13/2009 19:16:48" />
+    <file relUrl="bin/UFIDA.U8.Framework.LoginPlugInterface.dll" publishTime="09/28/2009 20:39:58" />
+    <file relUrl="bin/COMAdapterForOldAPI.dll" publishTime="08/17/2009 14:10:20" />
+    <file relUrl="bin/UFSoft.AIF.MOM.Common.MessageObjectModel.dll" publishTime="08/17/2009 14:10:58" />
+    <file relUrl="bin/IESBSDLMsgType.dll" publishTime="08/17/2009 14:10:30" />
+    <file relUrl="bin/Interop.UFPortalProxyMessage.dll" publishTime="03/07/2007 19:24:28" />
+    <file relUrl="bin/DotNetAssemblyProtocol.dll" publishTime="08/28/2009 09:58:56" />
+    <file relUrl="bin/UFSoft.U8.Framework.CryptographyService.BF.dll" publishTime="09/28/2009 20:40:02" />
+    <file relUrl="bin/zh-TW/UFIDA.U8.Portal.Option.resources.dll" publishTime="08/29/2009 16:39:06" />
+    <file relUrl="bin/Interop.VBAsyncPluginInvoker.dll" publishTime="08/17/2009 14:10:36" />
+    <file relUrl="bin/MOMMessageFilter.dll" publishTime="08/17/2009 14:10:42" />
+    <file relUrl="bin/UFSoft.AIF.MOM.Common.dll" publishTime="08/17/2009 14:10:56" />
+    <file relUrl="bin/DotNetMagic.dll" publishTime="07/11/2009 10:31:42" />
+    <file relUrl="bin/MSCOMProtocol.dll" publishTime="08/28/2009 09:58:56" />
+    <file relUrl="bin/zh-TW/UFIDA.U8.Portal.Scenario.Runtime.resources.dll" publishTime="08/29/2009 16:39:12" />
+    <file relUrl="bin/SecurityLib.dll" publishTime="09/28/2009 20:39:58" />
+    <file relUrl="bin/MOMEngine.dll" publishTime="08/17/2009 14:10:40" />
+    <file relUrl="bin/Microsoft.ApplicationBlocks.Data.dll" publishTime="07/24/2006 15:53:28" />
+    <file relUrl="Web.config" publishTime="08/07/2015 08:51:48" />
+    <file relUrl="bin/MOMChannelProcessor.dll" publishTime="08/17/2009 14:10:40" />
+    <file relUrl="bin/Microsoft.Practices.ObjectBuilder.dll" publishTime="05/05/2009 14:52:20" />
+    <file relUrl="bin/UFIDA.U8.Portal.BizServices.dll" publishTime="08/29/2009 16:39:02" />
+    <file relUrl="bin/MyWebApp.pdb" publishTime="08/06/2015 21:09:20" />
+    <file relUrl="bin/UFIDA.U8.U8MOMAPIFramework.dll" publishTime="08/17/2009 14:08:58" />
+    <file relUrl="bin/UFIDA.U8.Portal.Proxy.dll" publishTime="08/29/2009 16:39:16" />
+    <file relUrl="bin/MOMAdapter.dll" publishTime="08/17/2009 14:10:38" />
+    <file relUrl="bin/UFSoft.U8.Framework.Login.UI.dll" publishTime="09/28/2009 20:40:16" />
+    <file relUrl="bin/en-US/UFIDA.U8.Portal.Scenario.Runtime.resources.dll" publishTime="08/29/2009 16:39:12" />
+    <file relUrl="bin/UFIDA.U8.Portal.EventBroker.dll" publishTime="04/30/2009 12:02:14" />
+    <file relUrl="bin/Interop.TLI.dll" publishTime="08/17/2009 14:10:34" />
+    <file relUrl="bin/MyWebApp.dll" publishTime="08/06/2015 21:09:20" />
+    <file relUrl="bin/en-US/UFIDA.U8.Portal.Option.resources.dll" publishTime="08/29/2009 16:39:06" />
+  </publishProfile>
+</publishData>

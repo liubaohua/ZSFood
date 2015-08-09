@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://ws.zhengshan.com/" name="ZhengShanWsIService" targetNamespace="http://ws.zhengshan.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types />
+  <wsdl:message name="addWarehouseResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="queryInv">
+    <wsdl:part name="arg0" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="InventoryClassResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="addWarehouse">
+    <wsdl:part name="arg0" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="inventoryResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="inventory">
+    <wsdl:part name="content" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ST_AppTransVouchAddResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="InventoryClass">
+    <wsdl:part name="arg0" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="queryInvResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ST_AppTransVouchAdd">
+    <wsdl:part name="arg0" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:portType name="ZhengShanWsI">
+    <wsdl:operation name="ST_AppTransVouchAdd">
+      <wsdl:input name="ST_AppTransVouchAdd" message="tns:ST_AppTransVouchAdd" />
+      <wsdl:output name="ST_AppTransVouchAddResponse" message="tns:ST_AppTransVouchAddResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="inventory">
+      <wsdl:input name="inventory" message="tns:inventory" />
+      <wsdl:output name="inventoryResponse" message="tns:inventoryResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="addWarehouse">
+      <wsdl:input name="addWarehouse" message="tns:addWarehouse" />
+      <wsdl:output name="addWarehouseResponse" message="tns:addWarehouseResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="InventoryClass">
+      <wsdl:input name="InventoryClass" message="tns:InventoryClass" />
+      <wsdl:output name="InventoryClassResponse" message="tns:InventoryClassResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="queryInv">
+      <wsdl:input name="queryInv" message="tns:queryInv" />
+      <wsdl:output name="queryInvResponse" message="tns:queryInvResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ZhengShanWsIServiceSoapBinding" type="tns:ZhengShanWsI">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="ST_AppTransVouchAdd">
+      <soap:operation soapAction="" style="rpc" />
+      <wsdl:input name="ST_AppTransVouchAdd">
+        <soap:body use="literal" namespace="http://ws.zhengshan.com/" />
+      </wsdl:input>
+      <wsdl:output name="ST_AppTransVouchAddResponse">
+        <soap:body use="literal" namespace="http://ws.zhengshan.com/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addWarehouse">
+      <soap:operation soapAction="" style="rpc" />
+      <wsdl:input name="addWarehouse">
+        <soap:body use="literal" namespace="http://ws.zhengshan.com/" />
+      </wsdl:input>
+      <wsdl:output name="addWarehouseResponse">
+        <soap:body use="literal" namespace="http://ws.zhengshan.com/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="inventory">
+      <soap:operation soapAction="" style="rpc" />
+      <wsdl:input name="inventory">
+        <soap:body use="literal" namespace="http://ws.zhengshan.com/" />
+      </wsdl:input>
+      <wsdl:output name="inventoryResponse">
+        <soap:body use="literal" namespace="http://ws.zhengshan.com/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InventoryClass">
+      <soap:operation soapAction="" style="rpc" />
+      <wsdl:input name="InventoryClass">
+        <soap:body use="literal" namespace="http://ws.zhengshan.com/" />
+      </wsdl:input>
+      <wsdl:output name="InventoryClassResponse">
+        <soap:body use="literal" namespace="http://ws.zhengshan.com/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryInv">
+      <soap:operation soapAction="" style="rpc" />
+      <wsdl:input name="queryInv">
+        <soap:body use="literal" namespace="http://ws.zhengshan.com/" />
+      </wsdl:input>
+      <wsdl:output name="queryInvResponse">
+        <soap:body use="literal" namespace="http://ws.zhengshan.com/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ZhengShanWsIService">
+    <wsdl:port name="ZhengShanWsIPort" binding="tns:ZhengShanWsIServiceSoapBinding">
+      <soap:address location="http://172.16.11.1/freshBeef/ws/zhengShanWs?wsdl" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
